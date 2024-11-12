@@ -61,7 +61,7 @@ $allData = $excel->read();
 $data = $excel->read('Contacts');
 
 //  Read specific sheet by index (0-based)
-$data = $excel->read('Contacts');
+$data = $excel->read('Contacts', 1);
 
 // Reading using first row as headers
 $data = $excel->read('Contacts', true);
